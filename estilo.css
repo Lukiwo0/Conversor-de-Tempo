@@ -33,8 +33,20 @@ select#escolhe {
     border-radius: 7px;
     padding: 3px;
     margin: auto;
+    font-weight: bold;
+    margin-left: 3px;
     box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.605);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
 
+select#escolhe:hover {
+    background-color: rgba(0, 0, 0, 0.111);
+}
+
+select#escolhe:focus {
+    background-color: white;
+    outline: none;
 }
 
 input[type=text] {
