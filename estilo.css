@@ -1,10 +1,9 @@
 body {
-    background-image: url(imagem/bg.jpg);
+    background-image: url(imagem/bg.jpg); 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     font: normal 17px Arial;
-    
 }
 
 header {
@@ -19,15 +18,29 @@ section#principal {
     background: white;
     border-radius: 15px;
     padding: 15px;
-    width: 550px;
+    width: 600px;
     margin: auto;
-    box-shadow: 3px 3px 10px black;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.605);
 }
 
-input[type=number] {
+div#tudo {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+select#escolhe {
+    background-color: white;
+    border-radius: 7px;
+    padding: 3px;
+    margin: auto;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.605);
+
+}
+
+input[type=text] {
     border-radius: 5px;
     width: 130px;
-    margin-left: 5px;
+    margin-left: 1px;
     box-shadow: 1px 4px 1px rgba(0, 0, 0, 0.404);
 }
 
@@ -37,7 +50,7 @@ input[type="button"] {
     width: 100px;
     font-weight: bold;
     margin-left: 10px;
-    box-shadow: 1px 3px 1px black; 
+    box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.605); 
     cursor: pointer;
 }
 .button:hover {
