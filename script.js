@@ -1,5 +1,5 @@
     function github() {
-        window.open('https://github.com/Lukiwo0/Estudos')
+        window.open('https://github.com/Lukiwo0/Conversor-de-tempo')
     }
 
     function converter() {
